@@ -1,2 +1,2 @@
-# Meninas Digitais Piauí
+# meninasdigitaispiaui.github.io
 Site do Meninas Digitais Piauí
