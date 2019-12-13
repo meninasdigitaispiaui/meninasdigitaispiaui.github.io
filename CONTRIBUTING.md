@@ -36,6 +36,7 @@ Aqui, você poderá:
 	* Corrigir bugs
 	* Entre outros
 Obviamente, na sua pasta local. Não esqueça de atualizar o status antes de quaisquer alterações com métodos como o `git fetch --all` e `git rebase origin master`, e verificá-lo usando `git status`.
+Ah, o principal - não esqueça de comitar suas alterações usando `git commit -m "Ação"`. É uma boa prática usar um verbo no presente e outras palavras em minúsculo para o nome da ação, como "Add contributing guide" ou "Adiciona guia de contribuição".
 
 #### Mande a pull request!
 Ao terminar suas alterações, dê um `git push origin master` para que as alterações sejam enviadas ao GitHub. No repositório original, aparecerá uma mensagem sugerindo um pull request. Pode enviar!
