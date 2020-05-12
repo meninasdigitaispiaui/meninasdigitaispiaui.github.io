@@ -6,7 +6,7 @@ date: 2019-12-12
 comments: false
 ---
     
-<center><a href="https://meninasdigitaispiaui.github.io"><b>Meninas Digitais Piauí</b></a> é um grupo de alunas e professoras de Ciência da Computação/Engenharias da Universidade Federal do Piauí - UFPI.</center>
+<center><a href="https://meninasdigitaispiaui.github.io"><b>Meninas Digitais Piauí</b></a> um projeto de alunas e professoras da Universidade Federal do Piauí que visa incentivar a inserção e permanência de mulheres nas áreas de tecnologia na Universidade.
 
 # Português (Brasil)
 
