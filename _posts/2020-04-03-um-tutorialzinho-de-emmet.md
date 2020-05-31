@@ -2,6 +2,7 @@
 layout: post
 title:  "Um tutorialzinho de Emmet"
 date:   2020-04-03
+author: Ana Carolina Dias
 excerpt: "Acabei de assistir a essa aula no Skillshare e resolvi criar um cheatsheet sobre isso."
 tag:
 - tutorial
@@ -9,7 +10,7 @@ tag:
 comments: true
 ---
 
-Oi! Eu sou a [Lina, do @linalinastudy](https://instagram.com/linalinastudy) e nesse post, falaremos sobre [Emmet](https://emmet.io), um conjunto de plug-ins para editores de texto que tem uma sintaxe de "encurtamento" de código em HTML. Eu soube desses plug-ins pelo [Skillshare](https://skl.sh/3bPzxyo), que tem uma gama de cursos de web e de criatividade em geral, e resolvi compartilhar isso com vocês. 
+Oi! Eu sou a [Lina, do @linalinastudy](https://instagram.com/linalinastudy) e nesse post, falaremos sobre [Emmet](https://emmet.io), um conjunto de plug-ins para editores de texto que tem uma sintaxe de "encurtamento" de código em HTML. Eu soube desses plug-ins pelo [Skillshare](https://skl.sh/3bPzxyo), que tem uma gama de cursos de web e de criatividade em geral, e resolvi compartilhar isso com vocês.
 
 ## Ambiente
 Para que a gente não se enrole instalando programas desnecessários, esse tutorial é feito no [Codepen](https://codepen.io). O plug-in já está "instalado" nesse ambiente e a gente só precisa criar um novo "Pen". Pode ser em branco ou você pode utilizar essa cheatsheet para complementar um código que você já estava escrevendo anteriormente.
@@ -73,7 +74,7 @@ O modo mais fácil de gerar múltiplos atributos, porém únicos, é adicionando
 Se você digitar "img" e apertar "tab", verá que não apenas a tag será mostrada, mas também os dois atributos essenciais dessa tag: "src" (fonte, ou seja, o "link" da imagem) e "alt" (o texto alternativo). Se você quiser adicionar o atributo "width" (largura), por exemplo, você pode digitar "img[width="valorwidth"]", substituindo "valorwidth" por algum valor válido para esse atributo, e apertar "tab", ele adiciona uma tag img com três atributos: a fonte, o texto alternativo e essa largura: `<img src="" alt="" width="valorwidth"></img>`
 
 ## Adicionando texto
-Para adicionar uma tag com texto, por exemplo um link (a), você pode digitar "a[href="#"]{Click me}" e apertar "tab", e aparecerá um código do tipo `<a href=""#">Click me</a>`, o que significa que você atribuiu um valor "#" ao atributo "href" (que, assim como em "img" com seus dois atributos "nativos", iria aparecer de qualquer forma) e escreveu um texto clicável que redireciona ao link "#". 
+Para adicionar uma tag com texto, por exemplo um link (a), você pode digitar "a[href="#"]{Click me}" e apertar "tab", e aparecerá um código do tipo `<a href=""#">Click me</a>`, o que significa que você atribuiu um valor "#" ao atributo "href" (que, assim como em "img" com seus dois atributos "nativos", iria aparecer de qualquer forma) e escreveu um texto clicável que redireciona ao link "#".
 
 Vamos tentar outro exemplo? Digite "ul>li\*5{list item $}" e aperte "tab". Aparecerá o seguinte código:
 

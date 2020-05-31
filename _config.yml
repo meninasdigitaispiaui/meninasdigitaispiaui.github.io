@@ -1,12 +1,11 @@
 # Site
 title:              Meninas Digitais Piauí
-bio:                'Grupo de alunas e professoras de Ciência da Computação/Engenharias da Universidade Federal do Piauí'
-description:        "O Meninas Digitais Piauí é um grupo de alunas e professoras de Ciência da Computação/Engenharias da Universidade Federal do Piauí - UFPI."
+bio:                "Um projeto de alunas e professoras da Universidade Federal do Piauí que visa incentivar a inserção e permanência de mulheres nas áreas de tecnologia na Universidade."
+description:        "Um projeto de alunas e professoras da Universidade Federal do Piauí que visa incentivar a inserção e permanência de mulheres nas áreas de tecnologia na Universidade."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
-background:         'assets/img/placeholder-big.jpg'
-tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
+tiled_bg:           false
 locale:             pt_BR
 url:                https://meninasdigitaispiaui.github.io
 
@@ -29,41 +28,16 @@ sass:
 disqus_shortname:   meninas-digitais-piaui
 
 # Social
-# if you don't have any of social below, comment the line.
-#google:
-  #plus:            #username
-  #analytics:
-  #verify:
-  #ad-client:
-  #ad-slot:
-#bing-verify:
 email:              meninasdigitaispiaui@gmail.com
-twitter:            minasdigitaispi
+#twitter:            username
 #facebook:           username
 github-url:         meninasdigitaispiaui
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
-#xing:              username
+linkedin:           company/20522728/admin/
 instagram:          meninasdigitaispiaui
-#lastfm:            username
-#tumblr:            username
-#medium:            '@username'
-#pinterest:         username
-#foursquare:        username
-#steam:              username
-#dribbble:          username
-#youtube:           username
 #youtube-channel:   channel
-#soundcloud:        username
-#weibo:             username
-#flickr:            username
-#codepen:           username
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
 
-# Gems
-gems:
+# Plugins
+plugins:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap

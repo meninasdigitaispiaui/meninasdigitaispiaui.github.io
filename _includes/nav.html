@@ -36,7 +36,7 @@
 				{% endif %}
         {% if site.linkedin %}
 				<li>
-        	<a href="http://linkedin.com/in/{{ site.linkedin }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a>
+        	<a href="http://linkedin.com/{{ site.linkedin }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-linkedin-square"></i> LinkedIn</a>
         </li>
 				{% endif %}
         {% if site.xing %}
@@ -145,7 +145,6 @@
 	        {% else %}
 	        {% assign domain = site.url %}
 	    {% endif %}
-	    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.title }}</a></li>
 	  {% endfor %}
 	</ul><!-- /.dl-menu -->
 </nav><!-- /.dl-menuwrapper -->

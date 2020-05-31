@@ -2,6 +2,7 @@
 layout: post
 title:  "Como contribuir com nosso projeto"
 date:   2016-04-06
+author: Meninas Digitais Piauí
 excerpt: "Post sobre como contribuir com o projeto."
 tag:
 - help
