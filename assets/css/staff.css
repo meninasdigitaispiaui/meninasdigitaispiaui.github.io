@@ -1,0 +1,20 @@
+.card {
+  margin-top: 20px;
+  margin-left: 30px;
+  width: 208px;
+  height: 500px;
+  display: inline-block;
+  border-style: solid;
+}
+
+.picture {
+  width: 13rem;
+}
+
+.description {
+  height: 250px;
+}
+
+.bio {
+  font-size: 10px;
+}

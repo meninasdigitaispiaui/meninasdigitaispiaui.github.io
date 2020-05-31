@@ -1,0 +1,67 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<head>
+    {% include head.html %}
+</head>
+<body>
+    {% include nav.html %}
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="wrapper animated fadeIn">
+            <div class="content">
+                <div class="post-title">
+                    <h1>{{ page.title }}</h1>
+                    <a class="btn zoombtn" href="{{site.url}}">
+                        <i class="fa fa-home"></i>
+                    </a>
+                </div>
+                <div>
+                  {% for girl in site.staff %}
+                      <div class="card">
+                        <img class="picture" src="{{ site.url }}/{{ girl.picture }}" alt="">
+                        <div class="description">
+                          <center>
+                            <h2>{{ girl.name }}</h2>
+                            <p><strong>{{ girl.course }}</strong></p>
+                            <p class="bio">{{ girl.bio }}</p>
+                          </center>
+                        </div>
+                        <div>
+                          <center>
+                            {% if girl.github %}
+                              <a href="http://github.com/{{ girl.github }}"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+                            {% endif %}
+                            {% if girl.instagram %}
+                              <a href="http://instagram.com/{{ girl.instagram }}"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            {% endif %}
+                            {% if girl.twitter %}
+                              <a href="http://twitter.com/{{ girl.twitter }}"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                            {% endif %}
+                            {% if girl.linkedin %}
+                              <a href="http://linkedin.com/in/{{ girl.linkedin }}"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                            {% endif %}
+                            {% if girl.site %}
+                              <a href="{{ girl.site }}"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                            {% endif %}
+                            {% if girl.lattes %}
+                              <a href="http://lattes.cnpq.br/{{ girl.lattes }}"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
+                            {% endif %}
+                          </center>
+                        </div>
+                      </div>
+                  {% endfor %}
+                </div>
+            </div>
+        </div>
+    </header>
+    {% include scripts.html %}
+    <script src="{{ site.url }}/assets/js/wow.min.js"></script>
+    <script type="text/javascript">(new WOW).init();</script>
+</body>
+</html>
