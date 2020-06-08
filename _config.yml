@@ -4,7 +4,7 @@ bio:                "Um projeto de alunas e professoras da Universidade Federal 
 description:        "Um projeto de alunas e professoras da Universidade Federal do Piauí que visa incentivar a inserção e permanência de mulheres nas áreas de tecnologia na Universidade."
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
+logo:               'assets/img/newlogo.png'
 tiled_bg:           false
 locale:             pt_BR
 url:                https://meninasdigitaispiaui.github.io
